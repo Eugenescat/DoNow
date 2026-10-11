@@ -166,10 +166,12 @@ struct FloatingRootView: View {
 
     private func shortTime(_ seconds: Int) -> String {
         let remaining = max(0, seconds)
-        let totalMinutes = (remaining + 59) / 60
-        let hours = totalMinutes / 60
-        let minutes = totalMinutes % 60
-        return "\(hours):\(String(format: "%02d", minutes))"
+        if remaining < 3600 {
+            return "\(remaining / 60)m"
+        }
+        let hours = remaining / 3600
+        let minutes = (remaining % 3600) / 60
+        return "\(hours)h\(minutes)m"
     }
 
     private func durationLabel(_ seconds: Int) -> String {
