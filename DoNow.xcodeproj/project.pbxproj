@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* AppDelegate.swift */; };
+		B00000000000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* AppModel.swift */; };
+		B00000000000000000000003 /* DoNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* DoNowApp.swift */; };
+		B00000000000000000000004 /* TimerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* TimerCoordinator.swift */; };
+		B00000000000000000000005 /* TimerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* TimerState.swift */; };
+		B00000000000000000000006 /* ActiveTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000006 /* ActiveTimerView.swift */; };
+		B00000000000000000000007 /* FloatingPanelCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* FloatingPanelCoordinator.swift */; };
+		B00000000000000000000008 /* FloatingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000008 /* FloatingRootView.swift */; };
+		B00000000000000000000009 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* HistoryView.swift */; };
+		B0000000000000000000000A /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000A /* GeneralSettingsView.swift */; };
+		B0000000000000000000000B /* SettingsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000B /* SettingsRootView.swift */; };
+		B0000000000000000000000C /* TaskManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000C /* TaskManagementView.swift */; };
+		B0000000000000000000000D /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000D /* CalendarService.swift */; };
+		B0000000000000000000000E /* LoginItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000E /* LoginItemService.swift */; };
+		B0000000000000000000000F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000F /* NotificationService.swift */; };
+		B00000000000000000000010 /* DoNowStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000010 /* DoNowStore.swift */; };
+		B00000000000000000000011 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000011 /* Models.swift */; };
+		B00000000000000000000012 /* SettingsWindowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000015 /* SettingsWindowCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		F00000000000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppModel.swift; sourceTree = "<group>"; };
+		F00000000000000000000003 /* DoNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DoNowApp.swift; sourceTree = "<group>"; };
+		F00000000000000000000004 /* TimerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/TimerCoordinator.swift; sourceTree = "<group>"; };
+		F00000000000000000000005 /* TimerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/TimerState.swift; sourceTree = "<group>"; };
+		F00000000000000000000006 /* ActiveTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/FloatingBall/ActiveTimerView.swift; sourceTree = "<group>"; };
+		F00000000000000000000007 /* FloatingPanelCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/FloatingBall/FloatingPanelCoordinator.swift; sourceTree = "<group>"; };
+		F00000000000000000000008 /* FloatingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/FloatingBall/FloatingRootView.swift; sourceTree = "<group>"; };
+		F00000000000000000000009 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/History/HistoryView.swift; sourceTree = "<group>"; };
+		F0000000000000000000000A /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/GeneralSettingsView.swift; sourceTree = "<group>"; };
+		F0000000000000000000000B /* SettingsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/SettingsRootView.swift; sourceTree = "<group>"; };
+		F0000000000000000000000C /* TaskManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/TaskManagement/TaskManagementView.swift; sourceTree = "<group>"; };
+		F0000000000000000000000D /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/Calendar/CalendarService.swift; sourceTree = "<group>"; };
+		F0000000000000000000000E /* LoginItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/LoginItem/LoginItemService.swift; sourceTree = "<group>"; };
+		F0000000000000000000000F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/Notifications/NotificationService.swift; sourceTree = "<group>"; };
+		F00000000000000000000010 /* DoNowStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/Persistence/DoNowStore.swift; sourceTree = "<group>"; };
+		F00000000000000000000011 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/Persistence/Models.swift; sourceTree = "<group>"; };
+		F00000000000000000000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00000000000000000000013 /* DoNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoNow.entitlements; sourceTree = "<group>"; };
+		F00000000000000000000014 /* DoNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000000000000000000015 /* SettingsWindowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SettingsWindowCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000008 /* Sources */,
+				A00000000000000000000009 /* Config */,
+				A00000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000014 /* DoNow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000008 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000001 /* AppDelegate.swift */,
+				F00000000000000000000002 /* AppModel.swift */,
+				F00000000000000000000003 /* DoNowApp.swift */,
+				F00000000000000000000015 /* SettingsWindowCoordinator.swift */,
+				F00000000000000000000004 /* TimerCoordinator.swift */,
+				F00000000000000000000005 /* TimerState.swift */,
+				F00000000000000000000006 /* ActiveTimerView.swift */,
+				F00000000000000000000007 /* FloatingPanelCoordinator.swift */,
+				F00000000000000000000008 /* FloatingRootView.swift */,
+				F00000000000000000000009 /* HistoryView.swift */,
+				F0000000000000000000000A /* GeneralSettingsView.swift */,
+				F0000000000000000000000B /* SettingsRootView.swift */,
+				F0000000000000000000000C /* TaskManagementView.swift */,
+				F0000000000000000000000D /* CalendarService.swift */,
+				F0000000000000000000000E /* LoginItemService.swift */,
+				F0000000000000000000000F /* NotificationService.swift */,
+				F00000000000000000000010 /* DoNowStore.swift */,
+				F00000000000000000000011 /* Models.swift */,
+			);
+			name = DoNow;
+			path = Sources/DoNow;
+			sourceTree = SOURCE_ROOT;
+		};
+		A00000000000000000000009 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000012 /* Info.plist */,
+				F00000000000000000000013 /* DoNow.entitlements */,
+			);
+			path = Config;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000003 /* DoNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0000000000000000000000B /* Build configuration list for PBXNativeTarget "DoNow" */;
+			buildPhases = (
+				A00000000000000000000005 /* Sources */,
+				A00000000000000000000004 /* Frameworks */,
+				A00000000000000000000006 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = DoNow;
+			productName = DoNow;
+			productReference = F00000000000000000000014 /* DoNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A00000000000000000000003 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = A0000000000000000000000A /* Build configuration list for PBXProject "DoNow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, "zh-Hans");
+			mainGroup = A00000000000000000000001;
+			productRefGroup = A00000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A00000000000000000000003 /* DoNow */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000001 /* AppDelegate.swift in Sources */,
+				B00000000000000000000002 /* AppModel.swift in Sources */,
+				B00000000000000000000003 /* DoNowApp.swift in Sources */,
+				B00000000000000000000004 /* TimerCoordinator.swift in Sources */,
+				B00000000000000000000005 /* TimerState.swift in Sources */,
+				B00000000000000000000006 /* ActiveTimerView.swift in Sources */,
+				B00000000000000000000007 /* FloatingPanelCoordinator.swift in Sources */,
+				B00000000000000000000008 /* FloatingRootView.swift in Sources */,
+				B00000000000000000000009 /* HistoryView.swift in Sources */,
+				B0000000000000000000000A /* GeneralSettingsView.swift in Sources */,
+				B0000000000000000000000B /* SettingsRootView.swift in Sources */,
+				B0000000000000000000000C /* TaskManagementView.swift in Sources */,
+				B0000000000000000000000D /* CalendarService.swift in Sources */,
+				B0000000000000000000000E /* LoginItemService.swift in Sources */,
+				B0000000000000000000000F /* NotificationService.swift in Sources */,
+				B00000000000000000000010 /* DoNowStore.swift in Sources */,
+				B00000000000000000000011 /* Models.swift in Sources */,
+				B00000000000000000000012 /* SettingsWindowCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/DoNow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donow.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/DoNow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donow.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0000000000000000000000A /* Build configuration list for PBXProject "DoNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000000000000000000001 /* Debug */,
+				C00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0000000000000000000000B /* Build configuration list for PBXNativeTarget "DoNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000000000000000000003 /* Debug */,
+				C00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000000 /* Project object */;
+}
